@@ -14,7 +14,7 @@ var html = template(data);
 module.exports = {
   module: {
     loaders: [
-      { test: /\.tpl$/, loader: "dot-tpl" }
+      { test: /\.tpl$/, loader: "dot-tpl?append" }
     ]
   }
 };
