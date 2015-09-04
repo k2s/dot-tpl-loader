@@ -1,0 +1,16 @@
+{
+  "name": "dot-tpl-loader",
+  "description": "dot template loader with query options for webpack",
+  "author": "L3au<leshu.lau@gmail.com>",
+  "main": "index.js",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/L3au/dot-tpl-loader"
+  },
+  "dependencies": {
+    "dot": "^1.0.3",
+    "loader-utils": "^0.2.11",
+    "object-assign": "^4.0.1"
+  }
+}
