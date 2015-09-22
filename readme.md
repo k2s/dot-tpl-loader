@@ -5,7 +5,7 @@
 ``` javascript
 var template = require("dot-tpl!./file.tpl");
 
-var html = template(data);
+var html = template.render(data);
 ```
 
 ### Recommended config
@@ -14,7 +14,7 @@ var html = template(data);
 module.exports = {
   module: {
     loaders: [
-      { test: /\.tpl$/, loader: "dot-tpl?append" }
+      { test: /\.tpl$/, loader: "dot-tpl?append=true" }
     ]
   }
 };
