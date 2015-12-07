@@ -11,10 +11,9 @@ module.exports = function (content) {
         selfcontained: true
     }, options);
 
-    return 'module.exports = {\n' +
-        '  render: function (data) {\n' +
-        '    var fn = ' + dot.template(content, options) + ';\n' +
-        '    return fn.call(null, data || {});\n' +
-        '  }\n' +
-        '};';
+    return 'module.exports = (function () {\n' +
+        '  var fn = ' + dot.template(content, options) + ';\n' +
+        '  fn.render = fn;\n' +
+        '  return fn;\n'+
+        '})();';
 };
