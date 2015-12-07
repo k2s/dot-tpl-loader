@@ -9,7 +9,7 @@
     "url": "https://github.com/L3au/dot-tpl-loader"
   },
   "dependencies": {
-    "dot": "^1.0.3",
+    "dot": "^1.0.3",:
     "loader-utils": "^0.2.11",
     "object-assign": "^4.0.1"
   }
