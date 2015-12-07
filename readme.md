@@ -1,11 +1,12 @@
-# dot loader for webpack
-
 ## Usage
 
 ``` javascript
-var template = require("dot-tpl!./file.tpl");
+var template = require("./file.tpl");
 
+var html = template(data);
+// or
 var html = template.render(data);
+
 ```
 
 ### Recommended config
