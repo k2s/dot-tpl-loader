@@ -1,5 +1,7 @@
 ## Usage
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/L3au/dot-tpl-loader.svg)](https://greenkeeper.io/)
+
 ``` javascript
 var template = require("./file.tpl");
 
